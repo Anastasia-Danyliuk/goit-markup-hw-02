@@ -1,18 +1,6 @@
-:root {
-    --main-font: 'Roboto', 'Raleway', sans-serif;
-
-    --cl-main: 17 17 17;
-    --cl-white: 255 255 255;
-    --cl-primary: 77, 90, 229;
-    --cl-dark: 46, 47, 66;
-    --cl-text: 67, 68, 85;
-    --cl-light: 244, 244, 253;
-    --cl-pressed: 64, 75, 191;
-}
-
 body {
-    font-family: var(--main-font);
-    background-color: rgb(var(--cl-white));
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
     font-weight: 400;
     font-size: 16px;
     font-style: normal;
@@ -31,23 +19,20 @@ button {
 }
 
 .logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4D5AE5;
 }
 
 .header {
 }
 
-.logo-color{
-    color: rgb(var( --cl-primary));
-}
-
 .header-logo {
-    color: rgb(var( --cl-dark));
+    color: #2E2F42;
 }
 
 .header-menu {
@@ -57,34 +42,36 @@ button {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: rgb(var( --cl-dark));
+    color: #2E2F42;
 
 }
 
 .header-menu-item:hover,
 .header-menu-item:focus {
-    color:  rgb(var( --cl-pressed));
+    color: #404BBF;
 }
 
-.header-menu-studio:active {
-    text-decoration: underline rgb(var( --cl-pressed));
+.header-menu-item:active {
+    text-decoration: underline #404BBF;
 }
 
 .address {
+    font-style: normal;
 }
 
 .address-item {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: rgb(var( --cl-text));
+    color: #434455;
 }
+
 .address-item:hover,
 .address-item:focus {
-    color: rgb(var(  --cl-pressed));
+    color: #404BBF;
 }
 
 .studio {
-    background: rgb(var( --cl-dark));
+    background: #2E2F42;
 }
 
 .studio-title {
@@ -93,15 +80,21 @@ button {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: rgb(var(--cl-white));
+    color: #FFFFFF;
 }
 
 .btn {
-    background: rgb(var(--cl-primary));
+    background: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
 }
+
 .btn:hover,
 .btn:focus {
-    background: rgb(var( --cl-pressed));
+    background: #404BBF;
 }
 
 .advantages {
@@ -118,18 +111,18 @@ button {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: rgb(var( --cl-dark))
+    color: #2E2F42
 }
 
 .advantages-desc {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: rgb(var( --cl-text));
+    color: #434455;
 }
 
 .team {
-    background: rgb(var(--cl-light));
+    background: #F4F4FD;
 }
 
 .team-title {
@@ -138,7 +131,8 @@ button {
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
-    color: rgb(var( --cl-dark));
+    color: #2E2F42;
+    text-transform: capitalize
 }
 
 .team-list {
@@ -153,14 +147,14 @@ button {
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
-    color: rgb(var( --cl-dark));
+    color: #2E2F42;
 }
 
 .team-desc {
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
-    color: rgb(var( --cl-text));
+    color: #434455;
 }
 
 .portfolio {
@@ -172,7 +166,8 @@ button {
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
-    color: rgb(var( --cl-dark));
+    color: #2E2F42;
+    text-transform: capitalize;
 }
 
 .portfolio-list {
@@ -186,25 +181,25 @@ button {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color:  rgb(var( --cl-dark));
+    color: #2E2F42;
 }
 
 .portfolio-desc {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: rgb(var( --cl-text));
+    color: #434455;
 }
 
 .footer {
-    background:  rgb(var( --cl-dark));
+    background: #2E2F42;
 }
 
 .footer-logo {
-    color:  rgb(var( --cl-light));
+    color: #F4F4FD;
 }
 
 .footer-desc {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: rgb(var(--cl-white));
+    color: #F4F4FD;
 }
